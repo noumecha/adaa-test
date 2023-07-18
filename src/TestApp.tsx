@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import SearchBar from "./components/SearchBar"
+import ProductList from "./components/ProductList"
 
 const TestApp = () => {
     return (
         <div className="QuoteApp container">
-          <SearchBar />
+          <ProductList />
         </div>
       );
 }
